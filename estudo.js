@@ -41,3 +41,16 @@ function total(){
     document.write("O total é de: " + resultado);
 
 }
+// Para dividir usa  /
+// Calcular a média das 4 notas. Somas as 4 notas e divide por 4.
+// Quanto falta para passar. Pega 240  e subritai as notas
+
+function soma(){
+    let n1 = document.getElementById("b1").value;
+    let n2 = document.getElementById("b2").value;
+    let n3 = document.getElementById("b3").value;
+    let n4 = document.getElementById("b4").value;
+    let r = Number(n1) + Number(n2) + Number(n3) + Number(n4);
+    document.getElementById("resultado").innerHTML = r;
+
+}
