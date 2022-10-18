@@ -47,7 +47,7 @@ function total(){
     if(Number(ju)){
         alert("O juros deve ser um número.")
         document.getElementById("juros").velue = "";
-        document.getElementById("jurosa").focus();
+        document.getElementById("juros").focus();
        return
     }
 
